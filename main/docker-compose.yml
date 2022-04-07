@@ -1,6 +1,8 @@
 version: "3.8"
 services:
   backend:
+    environment:
+      RABBITMQ_URL: ${RABBITMQ_URL}
     build:
       context: .
       dockerfile: Dockerfile
