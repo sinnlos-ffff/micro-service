@@ -12,6 +12,19 @@
       "password": "root",
       "name": "admin@localhost",
       "database": "admin"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3067,
+      "driver": "MySQL",
+      "name": "main@localhost",
+      "username": "root",
+      "password": "root",
+      "database": "main"
     }
   ]
 }
